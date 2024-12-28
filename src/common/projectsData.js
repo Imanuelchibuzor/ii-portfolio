@@ -8,7 +8,7 @@ export const projectsData = [
     title: 'i - Estate',
     techStack: 'React and TailwindCSS',
     image: estate,
-    link: 'https://real-estate-website-six-gamma.vercel.app/'
+    link: 'https://r-e-w.vercel.app/'
   },
   {
     title: 'Weather App',
