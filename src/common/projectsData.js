@@ -3,8 +3,15 @@ import weather from '../assets/weather.jpeg';
 import notes from '../assets/notes.jpg';
 import converter from '../assets/converter.jpeg';
 import todo from '../assets/todo.jpeg';
+import spotify from '../assets/spotify.png';
 
 export const projectsData = [
+  {
+    title: 'Spotify Clone',
+    techStack: 'React and TailwindCSS',
+    image: spotify,
+    link: 'https://ii-spotify-clone.vercel.app/'
+  },
   {
     title: 'Estate Website',
     techStack: 'React and TailwindCSS',
