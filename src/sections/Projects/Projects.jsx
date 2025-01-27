@@ -10,7 +10,9 @@ function Projects() {
           <a href={project.link} target='_blank' key={index}>
             <img className="hover" src={project.image} alt={`${project.title} logo`}/>
             <h3>{project.title}</h3>
-            <p>{project.techStack}</p>
+            <div className={styles.description}>
+              <p className={styles.brief}>{project.description}</p>
+            </div>
           </a>
         ))}
       </div>
