@@ -5,8 +5,16 @@ import converter from "../assets/converter.jpeg";
 import todo from "../assets/todo.jpeg";
 import spotify from "../assets/spotify.png";
 import scribe from "../assets/scribe.jpg";
+import food_del from "../assets/food-del.png"
 
 export const projectsData = [
+  {
+    title: "Food Ordering App",
+    image: food_del,
+    link: "https://ii-food-del-frontend.vercel.app/",
+    description:
+      "A full-stack MERN food ordering web application featuring an intuitive cart management, payment integration with Stripe, real-time order tracking, and an admin dashboard for managing orders and products. The platform ensures a smooth user experience with a responsive design and authentication system for secure access.",
+  },
   {
     title: "Spotify Clone",
     image: spotify,

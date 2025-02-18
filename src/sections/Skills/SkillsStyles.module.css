@@ -31,9 +31,11 @@ hr {
   margin: 30px auto;
 }
 
-@media (width >= 800px) {
+@media (width < 1200px) {
   .skillList {
     max-width: fit-content;
+    justify-content: center;
+    padding: 0 10px;
     gap: 30px;
 
     p {
