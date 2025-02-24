@@ -5,9 +5,17 @@ import converter from "../assets/converter.jpeg";
 import todo from "../assets/todo.jpeg";
 import spotify from "../assets/spotify.png";
 import scribe from "../assets/scribe.jpg";
-import food_del from "../assets/food-del.png"
+import food_del from "../assets/food-del.png";
+import lms from "../assets/lms.jpg";
 
 export const projectsData = [
+  {
+    title: "MERN Stack LMS Application",
+    image: lms,
+    link: "https://ii-lms-frontend.vercel.app/",
+    description:
+      "A full-stack LMS web application built with the MERN stack. The platform includes secure payment processing with Stripe, allowing students to enroll in courses. Educators can add courses and access a dedicated dashboard to review enrolled students, added courses, and earnings. Students benefit from a progress tracking feature and can rate courses to enhance learning quality.",
+  },
   {
     title: "Food Ordering App",
     image: food_del,
