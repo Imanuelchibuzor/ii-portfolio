@@ -19,8 +19,7 @@
   justify-content: space-evenly;
   align-self: center;
   flex-wrap: wrap;
-  row-gap: 40px;
-  max-width: 26ch;
+  gap: 40px;
 }
 
 hr {
@@ -35,7 +34,7 @@ hr {
   .skillList {
     max-width: fit-content;
     justify-content: center;
-    padding: 0 10px;
+    padding: 20px;
     gap: 30px;
 
     p {
@@ -44,6 +43,6 @@ hr {
   }
 
   hr {
-      width: 300px;
-    }
+    width: 300px;
+  }
 }
