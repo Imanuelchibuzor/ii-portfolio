@@ -23,7 +23,7 @@
 }
 
 hr {
-  width: 100px;
+  width: 300px;
   height: 1px;
   border: none;
   background-color: var(--text-color);
@@ -40,9 +40,5 @@ hr {
     p {
       font-size: 20px;
     }
-  }
-
-  hr {
-    width: 300px;
   }
 }
