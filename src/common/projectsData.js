@@ -5,7 +5,7 @@ import converter from "../assets/converter.jpeg";
 import todo from "../assets/todo.jpeg";
 import spotify from "../assets/spotify.png";
 import scribe from "../assets/scribe.jpg";
-import food_del from "../assets/food-del.png";
+import food_del from "../assets/food-del.jpg";
 import lms from "../assets/lms.jpg";
 
 export const projectsData = [
